@@ -1,0 +1,41 @@
+.courses-nav-container {
+  background-color: rgb(211, 231, 240);
+  color: rgb(4, 25, 216);
+}
+.tab-title {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tab-title--active {
+  background-color: rgb(53, 53, 230);
+  color: white;
+  border-radius: 4px;
+}
+.tabactive {
+  display: block;
+  animation: fadein 2s linear;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+}
+.tabinactive {
+  display: none;
+  animation: fadeout 2s linear;
+}
+@keyframes fadeout {
+  0%,
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,45 @@
+.btn > a {
+  color: rgb(92, 92, 92);
+  font-size: 13px;
+}
+.copyright-container {
+  border-top: 1px solid rgb(190, 190, 190);
+}
+.footer-arrow-container {
+  position: relative;
+}
+.footer-arrow-btn {
+  font-size: 10px !important;
+  color: blue;
+  font-weight: normal !important;
+  background-color: cornflowerblue;
+  position: absolute;
+  right: 0px;
+  top: -48px;
+  cursor: pointer;
+}
+.google,
+.apple {
+  height: 40px;
+  width: 120px;
+}
+
+.google-image,
+.apple-image {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .footer-wrap-section {
+    flex-wrap: wrap;
+  }
+  .footer-width {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer-list {
+    display: block;
+  }
+}

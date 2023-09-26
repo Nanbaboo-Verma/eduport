@@ -1,0 +1,45 @@
+.instructor-container {
+  background-color: #0487a1;
+  border: none;
+  position: relative;
+}
+.instructor-para,
+.instructor-heading3 {
+  color: white;
+}
+.instructor-heading3-section::before {
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 100px;
+  background-color: #93deec;
+  border-radius: 50%;
+  padding: 15px;
+  opacity: 0.2;
+  top: 12px;
+  left: 40px;
+}
+.instructor-heading3::after {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  background-color: #93deec;
+  border-radius: 50%;
+  opacity: 0.2;
+  top: 15px;
+  right: 60%;
+  left: 50%;
+}
+.instructor-para::after {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  background-color: #93deec;
+  border-radius: 50%;
+  opacity: 0.2;
+  top: 80;
+  right: 40%;
+  left: 60%;
+}

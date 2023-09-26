@@ -1,0 +1,22 @@
+ul.tabs-title > li {
+  font-size: 13px;
+}
+.servies-name {
+  font-weight: 500;
+}
+@media screen and (max-width: 1200px) {
+  .services-container {
+    flex-wrap: wrap;
+  }
+  .first-child-margin {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .services-container {
+    flex-wrap: wrap;
+  }
+  .first-child-margin {
+    width: 100%;
+  }
+}

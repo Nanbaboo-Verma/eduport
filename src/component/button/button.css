@@ -1,0 +1,45 @@
+button {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 4px 5px;
+  background-color: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
+/* Button Type */
+.primary {
+  color: white;
+  background-color: #0069d9;
+}
+.secondary {
+  color: white;
+  background-color: #6c757d;
+}
+.success {
+  color: white;
+  background-color: #218838;
+}
+.info {
+  color: white;
+  border: 1px solid #17a2b8;
+}
+.warning {
+  background-color: #ffc107;
+}
+.danger {
+  color: white;
+  background-color: #dc3545;
+}
+.dark {
+  background-color: #38444d;
+  color: white;
+}
+.light {
+  background-color: white;
+}
+.link {
+  color: blue;
+}

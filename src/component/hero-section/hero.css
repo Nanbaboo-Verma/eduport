@@ -1,0 +1,136 @@
+.hero-image {
+  background-color: rgb(91, 91, 241);
+  border-top-left-radius: 80%;
+  border-top-right-radius: 90%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 30%;
+  padding: 0px 90px;
+}
+.hero-wrap-width {
+  position: relative;
+}
+/* Avatar */
+.hero-avatar-container {
+  background-color: #4ce940;
+  position: absolute;
+  width: 179px;
+  top: 15%;
+  left: 65%;
+  right: 35%;
+  padding: 20px 13px;
+}
+.image-avatar-container {
+  position: relative;
+}
+.avatar {
+  margin-left: -10px;
+}
+.avatar-images {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+}
+.avatar-para {
+  color: white;
+}
+.more-avatar {
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 9px 5px;
+}
+.hero-heading-section {
+  font-size: 50px;
+  color: rgb(41, 41, 41);
+}
+.play-btn {
+  background-color: #0069d9;
+  color: white;
+  border-radius: 50%;
+  font-size: 15px !important;
+  box-shadow: 0px 0px 0px 5px #92c6fd;
+}
+.playtext {
+  color: black;
+}
+.membership-container span {
+  color: gray;
+}
+.playtext {
+  color: rgb(63, 63, 63);
+}
+.hero-outer-section {
+  position: relative;
+}
+.star-hero-icon {
+  color: orange;
+  font-size: 40px !important;
+  position: absolute;
+  bottom: 100px;
+  left: 40%;
+  right: 60%;
+}
+
+.hero-outer-section::before {
+  position: absolute;
+  content: "";
+  background-color: rgb(245, 188, 131);
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  left: -100px;
+  top: -15px;
+}
+.fa-fa-star-top-hero::before {
+  color: rgb(31, 209, 31);
+  position: absolute;
+  content: "";
+  top: 45px;
+  left: 29%;
+  right: 71%;
+  font-size: 25px;
+}
+.react-image {
+  background-color: #320377;
+  top: 0;
+  left: 0;
+}
+.angular-image,
+.react-image {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 10%;
+  border: 10px solid white;
+  box-shadow: 0px 0px 10px 1px rgb(209, 209, 209);
+}
+.angular-image {
+  top: 0;
+  right: 0;
+}
+.figma-image {
+  position: absolute;
+  height: 30px;
+  width: 20px;
+  border-radius: 10%;
+  border: 10px solid white;
+  box-shadow: 0px 0px 10px 1px rgb(209, 209, 209);
+  bottom: 0;
+  right: 20px;
+  top: 220px;
+}
+@media screen and (max-width: 992px) {
+  .hero-wrap-container {
+    display: block;
+  }
+  .hero-wrap-width {
+    width: 100%;
+  }
+  .hero-wrap {
+    margin: auto;
+  }
+}
